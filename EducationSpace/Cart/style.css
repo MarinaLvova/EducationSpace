@@ -1,0 +1,81 @@
+.courses{
+    display: flex;
+    flex-direction: column;
+    width: 1fr;
+    margin: 10px 100px;
+}
+
+.course{
+    display: flex;
+    height: 250px;
+    margin: 20px 0;
+    background-color: rgb(227, 223, 232);
+    padding: 30px;
+    width: 900px;
+    border-radius: 25px;
+}
+
+.course img{
+    width: 300px;
+}
+
+.info{
+    width: 500px;
+    margin-left: 40px;
+}
+
+.info p{
+    font-size: 15px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(104, 81, 122);
+}
+
+.price{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin: 20px 20px 20px 0;
+}
+
+.price p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(104, 81, 122);;
+}
+
+.price button{
+    font-size: 23px;
+    font-weight: bold;
+    color: rgb(73, 51, 93);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+
+h1{
+    margin-left: 100px;
+    color: rgb(73, 51, 93);
+}
+
+.footer{
+    background-color: #5a496e;
+    height: 200px;
+  }
+  
+  .footer img{
+   object-fit: contain;
+   width: 250px;
+   margin-top: 20px;
+   margin-left: 50px;
+  }
+  
+  .footer p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
