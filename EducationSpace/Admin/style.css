@@ -1,0 +1,90 @@
+.education_curses, .education_curses2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.education_curse img, .education_curse2 img{
+    object-fit: contain;
+    width: 400px;
+}
+
+.education_curse{
+  position: relative;
+}
+
+.education_curse img{
+  border-radius: 30px;
+  height: 300px;
+}
+
+.priceAndCart{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 10px 10px 10px;
+}
+
+.priceAndCart p{
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+
+.priceAndCart button{
+  height: 36px;
+  width: 100px;
+  background-color: #F6F7FB;
+  border: 3px;
+  border-style: solid;
+  border-color:#776192;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.curse_information{
+  position: absolute;
+  background-color: #F6F7FB;
+  bottom: 25px;
+  right: 20px;
+  left: 20px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+.curse_information .h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 10px;
+  color: rgb(76, 76, 76);
+}
+
+.applications{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: #776192;
+}
+
+.footer{
+    background-color: #5a496e;
+    height: 200px;
+  }
+  
+  .footer img{
+   object-fit: contain;
+   width: 250px;
+   margin-top: 20px;
+   margin-left: 50px;
+  }
+  
+  .footer p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+  }

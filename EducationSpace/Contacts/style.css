@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    font-family: "Barlow", sans-serif;
+    background: #F6F7FB;
+    position: relative;
+  }
+
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700,800,900|Barlow:300,400,500,600,700,800,900&display=swap");
+.about {
+  position: fixed;
+  z-index: 10;
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  transition: all 0.2s ease;
+}
+
+.about .bg_links {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 100%;
+  backdrop-filter: blur(5px);
+  position: absolute;
+}
+.about .logo {
+  width: 40px;
+  height: 40px;
+  z-index: 9;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: 10px 7px;
+  opacity: 0.9;
+  transition: all 1s 0.2s ease;
+  bottom: 0;
+  right: 0;
+}
+
+.about:hover {
+  width: 105px;
+  height: 105px;
+  transition: all 0.6s cubic-bezier(0.64, 0.01, 0.07, 1.65);
+}
+.about:hover .logo {
+  opacity: 1;
+  transition: all 0.6s ease;
+}
+.about:hover .social {
+  opacity: 1;
+}
+.about:hover .social .icon {
+  opacity: 0.9;
+}
+.about:hover .social:hover {
+  background-size: 28px;
+}
+.about:hover .social:hover .icon {
+  background-size: 65%;
+  opacity: 1;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,button,a,i,input,body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 0;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: inherit;
+}
+h1:focus,h2:focus,h3:focus,h4:focus,h5:focus,h6:focus,p:focus,ul:focus,li:focus,button:focus,a:focus,i:focus,input:focus,body:focus {
+  outline: 0;
+}
+
+.footer{
+    background-color: #5a496e;
+    height: 200px;
+  }
+  
+  .footer img{
+   object-fit: contain;
+   width: 250px;
+   margin-top: 20px;
+   margin-left: 50px;
+  }
+  
+  .footer p{
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .infoContacts{
+    display: flex;
+    margin-top: 80px;
+    padding-top: 20px;
+    justify-content: space-between;
+    padding-left: 130px;
+    padding-right: 130px;
+    height: 500px;
+}
+
+.object1{
+    margin-right: 20px;
+    margin-top: 100px;
+}
+.object2{
+    margin-left: 100px;
+    margin-top: 100px ;
+}
+
+.header1{
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.header2{
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.mail{
+    font-weight: 700;
+    font-size: 25px;
+    color: #3f4145;
+}
